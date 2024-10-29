@@ -1,0 +1,41 @@
+ body {
+    background-color: rgb(33, 32, 32);
+ }
+
+.container {
+    display: flexbox;
+    background-color: aliceblue;
+    margin: 50px;
+    border-radius: 6px;
+    height: 30vh;
+    width: 45vh;
+    
+}
+
+.heading {
+    display: flexbox;
+    background-color: rgba(247, 42, 124, 0.989);
+    align-items: center;
+    justify-content: center;
+    line-height: 8vh;
+    margin-left: 20px;
+    text-align: center;
+    width: 35vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: -10px;
+    border-radius: 2px;
+
+}
+
+pre {
+    font-family:serif;
+    font-size: small;
+
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}

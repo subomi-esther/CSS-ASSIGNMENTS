@@ -61,7 +61,7 @@ body{
 
 @media (min-width: 320px) {
     .theHeadingText{
-      max-width: 320px;
+      min-width: 320px;
       width: fit-content;
     }
     

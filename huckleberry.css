@@ -5,30 +5,45 @@ pre {
 .theFirstBox{
     display: flexbox;
     background-color: rgb(65, 64, 64);
-    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     align-items: center;
     justify-content: center;
     height: 60vh;
+    margin: 0;
+    padding: 0;
 }
 
 .theMainText {
     display: flexbox;
+    width: 100%;
     background-color: #ffff;
     height: 35vh;
     padding-top: 40px ;
     padding-left: 10px;
-    border: 5px;
+    border: 8px;
+    border-bottom: #999999;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
     
 }
 
 .theHeadingText{
     display: flexbox;
-    background-color: #f9c310;
-    height: 5vh;
-    width:60vh ;
+    background-color: #FFBF00;
+    border-color: #CC9900;
+    height: 29px;
+    width: 398px;
     position: relative;
     bottom: -44px;
     text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 28.8px;
     padding-top: 9px;
     
     
@@ -48,8 +63,9 @@ body{
       max-width: 320px;
     }
     
-    .pre {
-        font-size: smaller;
+    .theMainText {
+        font-size: 10px;
+      max-width: 100%;
     }
 }
 
@@ -69,12 +85,25 @@ body{
     .theHeadingText{
       max-width: 1024px;
     }
-}
+
+   /** .theMainText {
+        font-size: 16px;
+       word-wrap: break-word;
+       overflow-wrap: break-word;
+       margin: 0 auto;
+       word-break: break-all;
+       hyphens: auto;
+    } **/
+} 
 
 @media (min-width: 1200px) {
     .theHeadingText{
       max-width: 1200px;
     }
+
+   /* .theMainText{
+      width: 100%;
+    } */
 }
 
 @media (min-width: 1400px) {

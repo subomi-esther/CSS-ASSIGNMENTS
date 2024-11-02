@@ -5,37 +5,64 @@
 .container {
     display: flexbox;
     background-color: aliceblue;
-    margin: 50px;
+    margin: 20px auto;
     border-radius: 6px;
-    height: 30vh;
+    height: fit-content;
     width: 45vh;
+    padding: 10px;
     
 }
 
 .heading {
     display: flexbox;
-    background-color: rgba(247, 42, 124, 0.989);
+    background-color: rgba(235, 38, 117, 0.989);
     align-items: center;
     justify-content: center;
-    line-height: 8vh;
+    line-height: 50px;
     margin-left: 20px;
     text-align: center;
-    width: 35vh;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-weight: 900;
+    width: 38vh;
+    top: -40px;
     position: relative;
-    top: -10px;
     border-radius: 2px;
 
 }
 
-pre {
-    font-family:serif;
-    font-size: small;
-
-}
 p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    font-size: larger;
+    font-family:Lato;
+    font-size: 20px;
+}
+
+@media (max-width: 320px) {
+    .container{
+      max-width: 320px;
+      width: 45vh;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      
+
+    }
+
+    .heading {
+        align-items: center;
+        justify-content: center;
+        width: 13vh ;
+    }
+}
+
+@media (max-width: 460px) {
+   .heading {
+    align-items: center;
+       justify-content: center;
+        
+   }
+}
+
+
+@media (min-width:640px) {
+   .heading{
+    justify-content: center;
+    align-items: center;
+   }
 }

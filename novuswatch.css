@@ -9,12 +9,12 @@ body {
     width: 55vh;
     align-items: center;
     justify-content: center;
-    height: 68vh;
+    height: fit-content;
     word-wrap: break-word;
     margin-left: 300px;
     border-radius: 8px;
     margin-top: 50px;
-    ;
+    
     
 }
 
@@ -28,7 +28,7 @@ img {
    /* align-items: flex-start;*/
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-    ;
+    
 
     
 }
@@ -41,7 +41,7 @@ img {
     text-align: center;
     position: relative; /* This makes the header box relative to the container */
     left: -10px; /* This moves the header box to the left */
-    top: -195px; /* This moves the header box up */
+    top: -155px; /* This moves the header box up */
     border-radius: 10px;
     padding-top: 4px;
     border-top-right-radius: 50px; /* This makes one edge of the container curved */
@@ -73,8 +73,48 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+ @media (max-width: 400px) {
+    .theMainBox{
+      width:55vh;
+      height: fit-content;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      
+    }
 
-@media (max-width: 400px) {
+}
+
+    .headerBox {
+        width: 30vh ;
+        height: fit-content;
+        left: -10px;
+        top: -160px;
+        font-weight: 600;
+    }
+
+ @media (max-width: 768px)  {
+   .headerBox {
+    width:fit-content;
+    height: fit-content;
+    left: -10px;
+    top: -190px ;
+    font-weight: 600;
+     
+   }
+}
+
+    .theMainBox {
+     width: 55vh;
+     height: fit-content;
+     word-wrap: break-word;
+     overflow-wrap: break-word;
+     justify-content: center;
+     align-items: center;
+     
+    }
+
+
+/*@media (max-width: 400px) {
     .theMainBox{
       width: fit-content;
       height: fit-content;
@@ -88,6 +128,7 @@ p{
         height: fit-content;
         left: -10px;
         top: -140px;
+        font-weight: 600;
     }
 }
 
@@ -97,6 +138,7 @@ p{
     height: fit-content;
     left: -10px;
     padding-top: -50px ;
+    font-weight: 600;
      
    }
 
@@ -108,4 +150,22 @@ p{
      margin-left: 0px;
      margin-top: 0px;
     }
-}
+} 
+
+@media (max-width: 768px) {
+    .theMainBox {
+        width: 20vh;
+        height: 20vh;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .headerBox {
+        width: 20vh;
+        height: 4vh;
+        left: -10px;
+        top: -250px;
+        font-weight: 600;
+    }

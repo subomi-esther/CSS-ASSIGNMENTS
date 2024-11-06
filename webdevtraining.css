@@ -57,6 +57,7 @@ form .formContainer {
 .inputBox {
   width: calc(50% - 20px);
   margin-bottom: 20px;
+  
 
 }
 
@@ -86,6 +87,7 @@ input:focus , select:focus
   flex-direction: column;
   width: 100%;
   outline: none;
+  
   
 }
 
@@ -134,7 +136,7 @@ a {
     width: 295px;
   }
 
-  p {
+  .theFoot{
     text-align: center;
   }
   .inputBox {

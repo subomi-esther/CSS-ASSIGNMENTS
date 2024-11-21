@@ -1,5 +1,7 @@
 body {
     font-family: Gilroy-Bold;
+    
+
 
 }
 
@@ -7,10 +9,45 @@ body {
     display: flex ;  
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 1150px;
+    height: 44px;
+    margin-left: 145.09px;
 }
-.theUrl , .theUl{
+
+.theUrl{
     color: #0065FE;
+    width: 69px;
+    font-size: 18px;
+    font: Gilroy-Medium;
+    line-height: 21.09px;
+
+}
+
+.features {
+    width: 72px;
+    font-size: 18px;
+    font: Gilroy-Medium;
+    line-height: 21.09px;
+
+}
+.pricing {
+    width: 56px;
+    font-size: 18px;
+    font: Gilroy-Medium;
+    line-height: 21.09px;
+}
+
+.analytics {
+    width: 76px;
+    font-size: 18px;
+    font: Gilroy-Medium;
+    line-height: 21.09px;
+}
+.faq {
+    width:43px ;
+    font-size: 18px;
+    font: Gilroy-Medium;
+    line-height: 21.09px;
 }
 a {
     text-decoration: none;
@@ -24,8 +61,9 @@ a {
     color: #0065FE ;
     gap : 8px;
     cursor: pointer;
-    margin-right: 50px;
+    margin-right: 70px;
     padding: 8px;
+    width: 155px;
     
 
 }
@@ -36,10 +74,11 @@ li {
     justify-content: center;
     padding: 8px;
     gap: 40px;
-
-
     
 }
+
+
+
 
 nav button {
 
@@ -60,14 +99,18 @@ nav {
     
 }
 
-
 .theUl {
     gap : 24px;
-    margin-left: 50px;
+    margin-left: 160px;
+    color: #0065FE;
 }
 
 .containerOneIsh {
-    text-align: center;
+  display: inline-block;
+  width: 948px;
+  margin-left: 246px;
+  margin-top: 162px;
+  gap: 32px;
     
 }
 
@@ -83,7 +126,7 @@ nav {
 .containerOneIsh svg {
   display: flex;
   margin-top: -50px;
-    margin-left: 558px;
+    margin-left: 397px;
  }
 
 span {
@@ -110,6 +153,8 @@ span {
    background-color: #0065FE;
    border: none;
    color: white;
+   width: 142px;
+   margin-left: 350px ;
 
 }
 
@@ -118,6 +163,7 @@ span {
     font-size: 16px;
     font: Gilroy-SemiBold;
     margin-left: 45px;
+    width: 84px;
 }
 
 .containerTwo {
@@ -131,6 +177,10 @@ span {
     margin-left: 434px;
     margin-top: 60px;
     margin-bottom: 60px;
+    background: linear-gradient(to right ,  #E2E9F0 39%, transparent 60%);
+   
+
+
 }
 
 .containerTwo p {
@@ -141,6 +191,11 @@ span {
     margin-left: auto;
     font-size: 16px;
 }
+.rectangleSvg {
+    margin-bottom:-290px;
+    margin-left: 440px;
+    margin-top: 60px ;
+} 
 
 
 .containerFour {
@@ -186,6 +241,13 @@ span {
     display: flex;
     width: 1202.1px;
     margin: 100px 100px 0 100px; 
+    padding-top: 0px;
+}
+
+.line {
+   display: inline-block;
+   
+
 }
 
 .containerFive  h1 {
@@ -242,6 +304,13 @@ span {
    
 }
 
+.sixLine {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -430px;
+    margin-bottom: -60px;
+}
+
 .containerSix p {
     width: 500px;
     text-align: center;
@@ -262,7 +331,8 @@ span {
     border: 0.4px solid #005AE2;
     height: 455px;
     width:379px;
-    box-shadow: #0000000D 5;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+
     
 }
 
@@ -277,7 +347,6 @@ span {
 
 .innerLeftWhiteBox {
     display: inline-block;
-    /*margin-left: 87px;*/
     padding-left: 87px; 
     margin-top: 0px;
 }
@@ -316,10 +385,7 @@ span {
     margin-left: -15px;
     margin-right: 0px;
     margin-top: -80px;
-   
-   
-   /* padding-top: 218px;
-    padding-left: 515px;*/
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
 }
 
 .professional {
@@ -334,7 +400,6 @@ span {
 
 .innerBlueBox {
     display: inline-block;
-    /*margin-left: 87px;*/
     padding-left: 87px; 
     margin-top: 0px;
     color: white;
@@ -364,10 +429,7 @@ span {
     border-left: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-
-    
-  
-    
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
 }
 .team {
     font-size: 24px;
@@ -439,14 +501,8 @@ span {
     width: 1440px;
     height: 523px;
     margin-top: 271px ;
-}
- /*.containerNine form {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 100px;
-} */
 
+}
 
 form {
     width: 476px;
@@ -454,6 +510,9 @@ form {
    padding: 25px 30px;
   border-radius: 12px; 
    margin-top: 83.5px;
+    background: rgba(255, 255, 255, 1);
+  
+
   
   }
   
@@ -467,6 +526,7 @@ form {
     gap: 4px;
     width:476px;
     padding-right: 42px;
+    
   }
   
   .inputBox , .fullInputBox {
@@ -487,7 +547,6 @@ form {
   
    select , .typeHere {
     height: 48px;
-    /*  padding-left: 18px 20px 18px 20px;*/
     border-radius: 12px;
     border: 1px solid #3284FF;
     gap: 12px;
@@ -507,15 +566,6 @@ form {
 
     
   }
-
-
-  
-   /*.details{
-    display: block;
-    font-weight: 600;
-    margin-bottom: 5px;
-
-  } */
   
   .fullInputBox {
     display: flex;
@@ -553,7 +603,6 @@ form {
     width: 400px;
     border-radius: 100px;
     margin-left: 42px;
-    padding-left: 42px;
     
   }
 
@@ -574,14 +623,83 @@ form {
     font: Gilroy-Bold;
   }
 
+  .containerTen {
+    display: inline-block;
+    width: 792px;
+    height: 955px;
+    margin-left: 324px;
+    margin-top: -900px;
+  }
+
+  .leftSvg {
+    margin-left: -8px;
+    margin-top: -8px;
+  }
+
+  .bottomSvg {
+    margin-left: 1200px;
+    margin-bottom: -105px;
+  }
+
+  .containerTen h2 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #141414;
+    font-family: Gilroy-Bold;
+    text-align: center;
+    margin-top: 100px;
+  }
+.containerTen p {
+    margin-bottom: 15px ;
+    width: 744px;
+    font-size: 16px;
+    line-height: 32px;
+    font: Gilroy-Medium;
+} 
+ .containerTen summary {
+    font-size: 20px;
+    font: Gilroy-Medium;
+    line-height: 32px;
+    width: 792px;
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+ }
+
+ .containerTen details ::before {
+    content: "+";
+    font-weight: 900;
+    font: Gilroy-Medium;
+    position: absolute;
+    left : 785px;
+    top: 0px;
+  }
+
+  details[open] summary::before {
+    content: "-";
+  }
+
+
+  .tenLine {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -130px;
+    margin-bottom: -60px;
+}
+
+
 
   .containerEleven {
     background-color: #1E3448;
     width: 1440px;
     height: 400px;
     margin-top: 100px ;
-    
   }
+
   
  /* .containerEleven h3 , a  {
     display: flex;
@@ -620,10 +738,18 @@ form {
     width: 750px;
     
   }
+
+  .leftFootSvg {
+    margin-left: -8px;
+    margin-top: 100px;
+
+
+  }
 .containerTwelve {
     display: flex;
     width: 1202.1px;
     margin: 100px 100px 0 100px; 
+    margin-top: -700px;
 }
 
   .containerTwelveFirst {
@@ -650,9 +776,7 @@ form {
     
 }
 
-/* .containerTwelveGrid ul {
-    padding-left: 0 ;
-} */
+
 
 .containerTwelveGrid h4 {
       font: Gilroy-Bold;
@@ -724,7 +848,12 @@ form {
     height: 20px;
     padding-right: 12px;
     padding-left: 12px;
-    margin-top: 5px;
+    margin-top: -60px;
     margin-left: 1100px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.rightFootSvg {
+    margin-left: 1100px;
+    margin-top: -500px;
 }

@@ -519,19 +519,9 @@ footer a  {
     }
 } */
 
-/*@media screen and (max-width: 584px) {
+@media screen and (max-width: 584px) {
    .theMainBox {
     flex-direction: column;
-   }
-
-    .theWhiteBox {
-     width: 320px;
-     margin: 0;
-    }
-
-   .containerOne hr {
-    margin: 0;
-    width: 320px;
    }
 
    button {
@@ -560,34 +550,18 @@ footer a  {
    }
 
    .creditCard {
-    width: 200px;
+    width: 100%;
    }
    .thecvc {
-    width: 50px ;
-    margin-left: 0px;
-    
-   }
-   .datetime {
-    width: 120px;
-    margin-left: 0px;
+    width: 100%;
+    margin-left: -10px;
    }
 
    .firstName {
-    width: 140px;
-   }
-   .inputBox .firstName {
-    width: 100%;
-   }
-    
-   .email {
-    width:  px;
+    width: 50px;
    }
 
-  .informationSection {
-    display: inline-block;
-    width: 150px;
-    margin-left: 0px;
-  }
+
    
 }
 

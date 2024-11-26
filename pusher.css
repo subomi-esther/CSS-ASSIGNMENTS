@@ -520,6 +520,8 @@ footer a  {
 } */
 
 /*@media screen and (max-width: 584px) {
+
+    
    .theMainBox {
     flex-direction: column;
    }
@@ -531,6 +533,16 @@ footer a  {
 
    .containerOne hr {
     margin: 0;
+    width: 320px;
+   }
+
+   .containerOne {
+    margin-left: 0;
+    
+   }
+
+   .containerOne li {
+    margin-right: 10px;
     width: 320px;
    }
 
@@ -580,7 +592,8 @@ footer a  {
    }
     
    .email {
-    width:  px;
+    width:  100%;
+    margin-left: 0;
    }
 
   .informationSection {
@@ -589,5 +602,5 @@ footer a  {
     margin-left: 0px;
   }
    
-}
+} */
 

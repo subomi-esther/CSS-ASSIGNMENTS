@@ -1,5 +1,7 @@
 body {
     font-family: Gilroy-Bold;
+    overflow-y: scroll;
+    overflow-x: hidden ;
     
 
 
@@ -9,9 +11,10 @@ body {
     display: flex ;  
     align-items: center;
     justify-content: center;
-    width: 1150px;
+    width: 1280px;
     height: 44px;
     margin-left: 145.09px;
+
 }
 
 .theUrl{
@@ -430,6 +433,7 @@ span {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    
 }
 .team {
     font-size: 24px;
@@ -637,7 +641,7 @@ form {
   }
 
   .bottomSvg {
-    margin-left: 1200px;
+    margin-left: 1055px;
     margin-bottom: -105px;
   }
 
@@ -857,3 +861,5 @@ form {
     margin-left: 1100px;
     margin-top: -500px;
 }
+
+

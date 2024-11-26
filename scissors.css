@@ -1,9 +1,7 @@
 body {
     font-family: Gilroy-Bold;
     overflow-y: scroll;
-    overflow-x: hidden ;
-    
-
+    overflow-x: hidden;
 
 }
 
@@ -702,17 +700,11 @@ form {
     width: 1440px;
     height: 400px;
     margin-top: 100px ;
+   
   }
 
   
- /* .containerEleven h3 , a  {
-    display: flex;
-    width: 806px;
-    height: 137px;
-    margin-top: -109px;
-    margin-left: 317px;
-    gap: 32px;
-  }  */
+ 
 
   .containerEleven h3 {
     width: 806px;
